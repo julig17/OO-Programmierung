@@ -1,0 +1,31 @@
+#Pseudocode für Rennwagen
+
+Definiere Klasse Rennwagen
+
+    Geschützter Bereich:
+        Attribut Name: Typ Zeichenkette
+        Attribut Farbe: Typ Zeichenkette
+        Attribut kW: Typ Ganzzahl
+        Attribut Hubraum: Typ Gleitpunktzahl
+
+    Öffentlicher Bereich:
+
+        Methode SetzeName(Übergabeparameter N: Typ Zeichenkette)
+            Falls N den Regeln entspricht:
+                Zuweisung: Name ← N
+            Ende Falls
+        Ende Methode
+
+        Methode SetzeFarbe(Übergabeparameter F: Typ Zeichenkette)
+            Falls F den Regeln entspricht:
+                Zuweisung: Farbe ← F
+            Ende Falls
+        Ende Methode
+
+Ende Klasse
+
+
+Bilde Objekt A vom Typ Rennwagen
+
+A.SetzeName("Lotus")
+A.SetzeFarbe("blau")
