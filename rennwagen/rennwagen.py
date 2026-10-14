@@ -1,4 +1,4 @@
-
+#Klasse Rennwagen als Bauplan
 class Rennwagen:
     def __init__(self):
         self._name = ""

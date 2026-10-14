@@ -1,6 +1,6 @@
 import rennwagen as r
 
-# Objekt A erzeugen
+# Objekt A erzeugen vom Klassse Rennwagen
 auto_a = r.Rennwagen()
 
 # Methoden aufrufen
