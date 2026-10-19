@@ -17,7 +17,10 @@ class Drucker:
     def drucken(self):
         if not self.status:
             print("Drucker ist ausgeschaltet!")
+        elif self.tonerstand == 0 :
+            print("Drucker ist leer!")
         else:
+            self.tonerstand = self.tonerstand - 1
             print("Dokument wird gedruckt.")
             print(f"Tonerstand: {self.tonerstand}%")
 
