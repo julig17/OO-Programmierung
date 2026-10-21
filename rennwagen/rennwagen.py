@@ -5,6 +5,7 @@ class Rennwagen:
         self._farbe = ""
         self._kw = 0
         self._hubraum = 0.0
+        self._modell = ""
 
     def setze_name(self, name):
         if isinstance(name, str) and name.strip():
