@@ -3,6 +3,8 @@ class Buch:
         self.titel = titel
         self.autor = autor
         self.isbn = isbn
+        self.erscheinungsjahr = self.erscheinungsjahr
+        self.auflage = auflage
         self.verfuegbar = True
 
     def ausleihen(self):
