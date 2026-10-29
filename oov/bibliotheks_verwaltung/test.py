@@ -2,6 +2,8 @@ from buch import Buch
 from mitglied import Mitglied
 from ausleihe import Ausleihe
 
+
+
 buch1 = Buch("Python lernen", "Max Müller", "12345")
 buch2 = Buch("Java Grundlagen", "Anna Schmidt", "67890")
 mitglied1 = Mitglied("Lisa Weber", 1001)

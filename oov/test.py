@@ -1,0 +1,1 @@
+from geräte.drucker import Drucker

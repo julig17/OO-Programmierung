@@ -6,10 +6,10 @@ class HardwareSimulator:
             self.__temperatur = temp
 
     # Öffentlicher Setter
-    def set_temperatur(self, temperatur):
+    def __set_temperatur(self, temperatur):
         self.__temperatur = temperatur
 
     def temperatur_messen(self):
         # Simuliert einen Temperaturwert der Hardware
-        self.set_temperatur(round(random.uniform(-60, 60), 1))
+        self.__set_temperatur(round(random.uniform(-60, 60), 1))
         return self.__temperatur
